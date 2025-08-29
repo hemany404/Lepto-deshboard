@@ -1,0 +1,61 @@
+Lepto - Análise do Resumo Diário da BODIVA
+
+Lepto é uma aplicação interativa desenvolvida em Python e Streamlit, focada na análise do resumo diário da BODIVA (Bolsa de Dívida e Valores de Angola).  
+A plataforma transforma dados financeiros em visualizações claras e insights úteis, facilitando o acompanhamento do mercado angolano.
+
+
+
+🔍 Funcionalidades
+
+- Visualização do montante movimentado por título
+- Análise da quantidade total transacionada
+- Exibição do volume de negócios por título
+- Avaliação da variação de preço
+- Destaque para o ativo com melhor desempenho geral
+
+
+
+⚙ Tecnologias Utilizadas
+
+- Python  
+- Pandas   
+- Streamlit  
+- Plotly  
+
+
+
+
+📁 Organização do Projeto
+
+
+lepto/
+├── image/                 # imagens (CSV, XLSX etc.)
+├── Home.py               # Aplicação principal em Streamlit
+├── pages/           # paginas 
+├── utils.py              # Funções auxiliares de limpeza e análise
+└── README.md
+
+
+
+🚀 Como Executar Localmente
+
+1. Clone o repositório:
+bash
+git clone https://github.com/hemany404/lepto.git 
+
+cd lepto
+
+
+2. Instale as dependências:
+bash
+pip install -r requirements.txt
+
+
+3. Execute a aplicação:
+bash
+streamlit run app.py
+
+
+🧠 Objetivo
+
+Lepto foi criado para facilitar o acesso às informações diárias da BODIVA, permitindo uma leitura rápida e visual dos movimentos do mercado angolano.
