@@ -1,11 +1,11 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-from utils.helpers import limpar_e_converter
+from utils.dependecia import limpar_e_converter
 import base64
 
 st.set_page_config(
-    page_title="LEPTO ",
+    page_title="LEPTO-ACÇÕES ",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -137,8 +137,8 @@ if 'df_carregado' in st.session_state:
         <p>Este gráfico mostra <strong> quanto foi movimentado em dinheiro por cada título, </strong> somando compras e vendas.</p> 
        
         <p>Cada barra representa um título e o <strong> valor total que passou por ele.</strong>Assim ,é possivel ver <strong> quais ativos tiveram mais movimentação financeira </strong> no periodo analisado </p> 
-        <p><strong>Maior Movimentação:<strong style='color:rgba(59, 130, 246, 0.4);'>{ver2} </strong> </strong> com <strong style='color:rgba(59, 130, 246, 0.4);'>{maior_montante} KZ.</strong> </p>
-        <p>isso indica que a <strong style ="color:rgba(59, 130, 246, 0.4);">{ver2}</strong> foi o título com maior volume financeiro movimentado neste período </p>
+        <p><strong>Maior Movimentação:<strong style='color:rgba(34, 197, 94, 0.4);'>{ver2} </strong> </strong> com <strong style='color:rgba(34, 197, 94, 0.4);'>{maior_montante} KZ.</strong> </p>
+        <p>isso indica que a <strong style ="color:rgba(34, 197, 94, 0.4);">{ver2}</strong> foi o título com maior volume financeiro movimentado neste período </p>
         </div> 
 
         """

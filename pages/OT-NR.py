@@ -1,10 +1,10 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-from utils.helpers import limpar_e_converter
+from utils.dependecia import limpar_e_converter
 
 st.set_page_config(
-    page_title="LEPTO ",
+    page_title="LEPTO-OT-NR ",
     layout="wide",
     initial_sidebar_state="expanded")
 
@@ -35,7 +35,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.logo('image/nova10.png')
+
 st.title('Resumo das OT-NR')
 st.divider()
 

@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 
-st.logo('image/nova10.png')
+
 
 def set_bg_from_local(image_file):
     with open(image_file, "rb") as img_file:
@@ -37,7 +37,7 @@ def set_bg_from_local(image_file):
 carregar_ficheiro = st.file_uploader('Coloca o arquivo excell do Resumo de Mercado da BODIVA',type=['xlsx'])
 if carregar_ficheiro:
     df =pd.read_excel(carregar_ficheiro)
-    st.session_state['df_carregado'] =df
+    st.session_state['df_carregado'] = df
 
 st.markdown("""
     <style>
