@@ -40,7 +40,7 @@ st.markdown("""
 
         
 
-st.logo('image/nova10.png')
+
 st.title('Resumo das Acções')   
 st.divider()
 
@@ -134,9 +134,8 @@ if 'df_carregado' in st.session_state:
         >
         <h3 style='margin-bottom:;color:rgba(34, 197, 94, 0.4);'>Montante Movimentado por Título </h3>
 
-        <p>Este gráfico mostra <strong> quanto foi movimentado em dinheiro por cada título, </strong> somando compras e vendas.   
-        </p> 
-       <p>Este gráfico mostra <strong> quanto foi movimentado em dinheiro por cada título, </strong> somando compras e vendas.  </p> 
+        <p>Este gráfico mostra <strong> quanto foi movimentado em dinheiro por cada título, </strong> somando compras e vendas.</p> 
+       
         <p>Cada barra representa um título e o <strong> valor total que passou por ele.</strong>Assim ,é possivel ver <strong> quais ativos tiveram mais movimentação financeira </strong> no periodo analisado </p> 
         <p><strong>Maior Movimentação:<strong style='color:rgba(59, 130, 246, 0.4);'>{ver2} </strong> </strong> com <strong style='color:rgba(59, 130, 246, 0.4);'>{maior_montante} KZ.</strong> </p>
         <p>isso indica que a <strong style ="color:rgba(59, 130, 246, 0.4);">{ver2}</strong> foi o título com maior volume financeiro movimentado neste período </p>

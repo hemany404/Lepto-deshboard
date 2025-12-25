@@ -15,7 +15,7 @@ st.logo('image/nova10.png')
 
 def set_bg_from_local(image_file):
     with open(image_file, "rb") as img_file:
-        encoded = base64.b64encode(img_file.read()).decode()
+        encoded = base64.b64encode(img_file.read()).decode()               
     st.markdown(
         f"""
         <style>
